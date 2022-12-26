@@ -1,5 +1,11 @@
-public class App {
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+public class TiposVariaveis {
+    public static void main(String[] args){
+        Integer a = 6;
+        Integer b = 6;
+
+        String resultado = a == b ? "Verdadeiro" : "Falso";
+
+        System.out.println(resultado);
     }
+
 }
